@@ -13,7 +13,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 @Component
 export default class BaseIcon extends Vue {
     @Prop({type: String}) name!: string
-    @Prop({type: Number, default: 24}) with!: number
+    @Prop({type: Number, default: 24}) width!: number
     @Prop({type: Number, default: 24}) height!: number
 }
 </script>

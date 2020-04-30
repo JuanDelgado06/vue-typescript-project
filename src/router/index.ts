@@ -6,7 +6,7 @@ Vue.use(VueRouter)
   const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'EventList',
+    name: 'event-list',
     component: () => import('../views/EventList.vue')
   },
   {
